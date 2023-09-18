@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-first-comp.component.css']
 })
 export class MyFirstCompComponent {
+deleteMessage(index: number):void{
+this.messages.splice(index,1);
+}
 name:string =""
 email:string=""
 message:string=""
