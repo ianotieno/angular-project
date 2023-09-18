@@ -5,6 +5,11 @@ import { Injectable } from '@angular/core';
 })
 export class MyFirstService {
  messages:Array<any>=[]
+
+ constructor() {
+  this.init()
+ }
+
  init(){
   this.insert({
     name: 'ian',
@@ -22,9 +27,7 @@ export class MyFirstService {
     message:'hello-paul'
   });
  }
-  constructor() {
-    this.init
-   }
+  
   insert(message:{name:string,email:string,message:string}){
     this.messages.push(message)
   }
