@@ -23,6 +23,9 @@
         </div>
         <button type="submit"> Submit</button>
     </form>
-
+    <div class="flex-container" *ngIf="isSubmited">
+        <app-message-details></app-message-details>
+        
+    </div>
  
 </div>
