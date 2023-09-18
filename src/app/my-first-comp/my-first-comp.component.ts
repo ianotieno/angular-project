@@ -9,6 +9,7 @@ export class MyFirstCompComponent {
 name:string =""
 email:string=""
 message:string=""
+isSubmited:boolean= false
 OnSubmit(){
   console.log(this.name)
 }
