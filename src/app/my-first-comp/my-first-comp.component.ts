@@ -18,6 +18,6 @@ OnSubmit(){
     'email':this.email,
     'message':this.message
   })
-  console.log(this.messages)
+  
 }
 }

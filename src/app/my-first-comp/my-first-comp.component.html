@@ -24,7 +24,10 @@
         <button type="submit"> Submit</button>
     </form>
     <div class="flex-container" *ngIf="isSubmited">
-        <app-message-details></app-message-details>
+        <app-message-details
+        *ngFor="let msg of messages; let i=index"
+        [message]="msg"
+        ></app-message-details>
         
     </div>
  
