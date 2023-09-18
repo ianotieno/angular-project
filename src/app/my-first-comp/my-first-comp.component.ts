@@ -11,6 +11,6 @@ email:string=""
 message:string=""
 isSubmited:boolean= false
 OnSubmit(){
-  console.log(this.name)
+  this.isSubmited=true
 }
 }
