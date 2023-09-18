@@ -2,16 +2,17 @@
     <h2>Simple Form</h2>
     <form>
         <div class="form-group">
-            <label for="name">name</label>
-            <input type="text" id="name" required>
+            <label for="name">name:</label>
+            <input type="text" id="name" placeholder="Enter Name" [(ngModel)]="name" required>
         </div>
         <div class="form-group">
-            <label for="name">Email</label>
-            <input type="text" id="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email"  placeholder="Enter Email" [(ngModel)]="email"  required>
         </div>
         <div class="form-group">
-            <label for="name">Message:</label>
-            <textarea  id="message"  rows="4" required></textarea>
+            <label for="message">Message:</label>
+            <textarea  id="message"  rows="4" placeholder="Enter Message" [(ngModel)]="message" required></textarea>
         </div>
+        <button type="submit"> Submit</button>
     </form>
 </div>
