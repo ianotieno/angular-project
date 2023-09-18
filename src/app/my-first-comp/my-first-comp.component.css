@@ -15,7 +15,14 @@
     margin-bottom: 20px;
     text-align: center;
 }
+.School{
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    text-align: center;
 
+}
 /* Style the form groups */
 .form-group {
     margin-bottom: 20px;
