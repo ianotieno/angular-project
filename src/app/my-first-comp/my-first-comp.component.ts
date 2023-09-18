@@ -10,7 +10,14 @@ name:string =""
 email:string=""
 message:string=""
 isSubmited:boolean= false
+messages:Array<any>=[]
 OnSubmit(){
   this.isSubmited=true
+  this.messages.push({
+    'name':this.name,
+    'email':this.email,
+    'message':this.message
+  })
+  console.log(this.messages)
 }
 }
