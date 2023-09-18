@@ -1,7 +1,7 @@
 <p class="School">McAgutu School</p>
-<div class="form-control">
+<div class="form-control" >
     <h2>Registration Form</h2>
-    <form>
+    <form (ngSubmit)="OnSubmit()">
         <div class="form-group">
             <label for="name">name:</label>
             <input type="text" id="name" placeholder="Enter Name" [(ngModel)]="name" name="name" required>

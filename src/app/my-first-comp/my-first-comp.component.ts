@@ -9,4 +9,7 @@ export class MyFirstCompComponent {
 name:string =""
 email:string=""
 message:string=""
+OnSubmit(){
+  console.log(this.name)
+}
 }
