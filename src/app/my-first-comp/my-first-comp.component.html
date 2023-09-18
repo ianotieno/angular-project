@@ -24,23 +24,5 @@
         <button type="submit"> Submit</button>
     </form>
 
-    <h3>Form Data</h3>
-<table *ngIf="isSubmited">
-    <thead>
-    <tr>  
-        <th><strong>Sn</strong></th>
-       <th><strong>Name</strong></th>
-        <th><strong>Message</strong></th>
-        <th><strong>Email</strong></th>
-        
-    </tr>
-</thead>
-<tbody>
-    <tr *ngFor="let mgs of messages; let i=index">
-          <td>{{i +1}}</td>
-        <td>{{mgs.name}}</td>
-        <td>{{mgs.email}}</td>
-        <td>{{mgs.message}}</td>
-    </tr>
-</tbody>
-</table>
+ 
+</div>
