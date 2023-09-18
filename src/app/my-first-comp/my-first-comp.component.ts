@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyFirstService } from '../services/my-first.service';
 
 @Component({
   selector: 'app-my-first-comp',
@@ -22,5 +23,9 @@ OnSubmit(){
     'message':this.message
   })
   
+}
+constructor(private service:MyFirstService){
+  this.messages= this.service.getAllMessages()
+  this.isSubmited=this.messages.length > 0 
 }
 }
