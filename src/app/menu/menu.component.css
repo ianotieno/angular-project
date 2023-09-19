@@ -2,7 +2,8 @@
 .menu {
     background-color: #333; /* Background color for the menu */
     color: #fff; /* Text color for menu items */
-    font-size: 18px; /* Font size for menu items */
+    padding: 20px;
+    font-size: 25px; /* Font size for menu items */
 }
 
 /* Style the unordered list (ul) */
