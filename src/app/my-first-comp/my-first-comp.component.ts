@@ -20,7 +20,7 @@ constructor(private service:MyFirstService){
 }
 
 OnSubmit(){
-  this.isSubmited=true
+  this.isSubmited=false
   this.service.insert({
     'name':this.name,
     'email':this.email,
