@@ -1,33 +1,31 @@
 /* Style the menu container */
 .menu {
     background-color: #333; /* Background color for the menu */
-    font-family: Arial, sans-serif; /* Choose a suitable font-family */
-    text-align: center; /* Center-align the menu items */
+    color: #fff; /* Text color for menu items */
+    font-size: 18px; /* Font size for menu items */
 }
 
 /* Style the unordered list (ul) */
 .menu ul {
     list-style-type: none; /* Remove default list bullets */
+    margin: 0;
     padding: 0;
 }
 
 /* Style the list items (li) */
 .menu li {
-    display: inline-block; /* Display menu items inline */
-    margin: 0 15px; /* Add spacing around menu items */
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add some spacing between menu items */
 }
 
 /* Style the links (a) */
 .menu a {
     text-decoration: none; /* Remove underlines from links */
     color: #fff; /* Text color for links */
-    padding: 10px 15px; /* Add padding to links for better clickability */
-    border-radius: 5px; /* Add rounded corners to links */
-    transition: background-color 0.3s, color 0.3s; /* Add smooth transitions */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
 }
 
 /* Style links on hover */
 .menu a:hover {
-    background-color: #ff6600; /* Change the background color on hover */
-    color: #333; /* Change the text color on hover */
+    color: #ff6600; /* Change the text color on hover */
 }
