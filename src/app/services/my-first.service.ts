@@ -35,6 +35,6 @@ export class MyFirstService {
     return this.messages
   }
   deleteMessage(index:number){
-    this.messages.slice(index)
+    this.messages.splice(index)
   }
 }
