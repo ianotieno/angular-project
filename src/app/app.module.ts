@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { MyFirstCompComponent } from './my-first-comp/my-first-comp.component';
 import { MessageDetailsComponent } from './message-details/message-details.component';
 import { MenuComponent } from './menu/menu.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyFirstCompComponent,
     MessageDetailsComponent,
-    MenuComponent
+    MenuComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
